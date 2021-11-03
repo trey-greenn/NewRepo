@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 df = pd.read_csv('startup_funding.csv')
 df.columns = [c.replace(' ', '_') for c in df.columns]
-image = Image.open('C:\\Dashboard_1.png')
+image = Image.open('Dashboard_1.png')
 
 
 
