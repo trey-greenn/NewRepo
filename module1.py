@@ -65,5 +65,5 @@ st.write(dff)
 st.image(image)
 
 dff['Amount_in_USD'] = dff['Amount_in_USD'].astype('int64')
-dff.dtypes
+
 
